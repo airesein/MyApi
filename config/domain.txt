@@ -1,3 +1,4 @@
 localhost
 127.0.0.1
-*.ziworld.top
+api.ziworld.top
+blog.ziworld.top
