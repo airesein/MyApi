@@ -15,7 +15,7 @@ export default function App() {
     setAppUrl(window.location.origin);
 
     // 获取访客信息
-    fetch('/api/visitor')
+    fetch('api/visitor')
       .then(res => {
         if (res.status === 403) throw new Error('域名未授权 (请检查 config/domain.txt)');
         return res.json();
@@ -24,7 +24,7 @@ export default function App() {
       .catch(err => setVisitorInfo({ error: err.message }));
 
     // 获取一言
-    fetch('/api/hitokoto?format=json')
+    fetch('api/hitokoto?format=json')
       .then(res => {
         if (res.status === 403) throw new Error('域名未授权');
         return res.json();
