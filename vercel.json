@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" }
+    { "source": "/", "destination": "/public/index.html" }
   ],
   "functions": {
-    "api/index.ts": {
+    "api/*.js": {
       "includeFiles": "config/**"
     }
   }
