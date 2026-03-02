@@ -1,0 +1,5 @@
+{
+  "name": "Serverless API System",
+  "description": "A serverless-style API system featuring Visitor Info, Hitokoto (One Word), and Random Image APIs with file-based configuration.",
+  "requestFramePermissions": []
+}
