@@ -1,3 +1,4 @@
 localhost
 127.0.0.1
-ais-dev-j44mmpj6wuelx4xjvhmmve-545086725631.asia-southeast1.run.app
+api.ziworld.top
+blog.ziworld.top
